@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:block/carved_pumpkin",
+  "overrides": [
+    { "predicate": {"custom_model_data": 100320}, "model": "item/warden"},
+    { "predicate": {"custom_model_data": 102420}, "model": "item/vr"},
+    { "predicate": {"custom_model_data": 112017}, "model": "item/inferno"},
+    { "predicate": {"custom_model_data": 112536}, "model": "item/halo"},
+    { "predicate": {"custom_model_data": 129147}, "model": "item/propeller"},
+    { "predicate": {"custom_model_data": 151816}, "model": "item/pirate"},
+    { "predicate": {"custom_model_data": 151820}, "model": "item/goat"},
+    { "predicate": {"custom_model_data": 161797}, "model": "item/tophat"},
+    { "predicate": {"custom_model_data": 182023}, "model": "item/diving"},
+    { "predicate": {"custom_model_data": 189123}, "model": "item/tv"},
+    { "predicate": {"custom_model_data": 192123}, "model": "item/crystal"},
+    { "predicate": {"custom_model_data": 232323}, "model": "item/farmer"},
+    { "predicate": {"custom_model_data": 241848}, "model": "item/miner"},
+    { "predicate": {"custom_model_data": 301971}, "model": "item/wonka"},
+    {"predicate": {"custom_model_data": 306070}, "model": "item/egghead"},
+    {"predicate": {"custom_model_data": 600200}, "model": "item/magnet"},
+    {"predicate": {"custom_model_data": 625000}, "model": "item/cloud"},
+    {"predicate": {"custom_model_data": 652020}, "model": "item/hoglin"},
+    {"predicate": {"custom_model_data": 992011}, "model": "item/ender"}
+  ]
+}

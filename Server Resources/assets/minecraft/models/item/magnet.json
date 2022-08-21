@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "custom/magnet",
+		"particle": "custom/magnet"
+	},
+	"elements": [
+		{
+			"from": [5, 9, 7],
+			"to": [11, 11, 9],
+			"faces": {
+				"north": {"uv": [2, 2, 8, 4], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#0"},
+				"south": {"uv": [10, 2, 16, 4], "texture": "#0"},
+				"west": {"uv": [8, 2, 10, 4], "texture": "#0"},
+				"up": {"uv": [8, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [14, 0, 8, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 3, 7],
+			"to": [5, 11, 9],
+			"faces": {
+				"north": {"uv": [10, 6, 12, 14], "texture": "#0"},
+				"east": {"uv": [8, 6, 10, 14], "texture": "#0"},
+				"south": {"uv": [14, 6, 16, 14], "texture": "#0"},
+				"west": {"uv": [12, 6, 14, 14], "texture": "#0"},
+				"up": {"uv": [12, 6, 10, 4], "texture": "#0"},
+				"down": {"uv": [14, 4, 12, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11, 3, 7],
+			"to": [13, 11, 9],
+			"faces": {
+				"north": {"uv": [2, 6, 4, 14], "texture": "#0"},
+				"east": {"uv": [0, 6, 2, 14], "texture": "#0"},
+				"south": {"uv": [6, 6, 8, 14], "texture": "#0"},
+				"west": {"uv": [4, 6, 6, 14], "texture": "#0"},
+				"up": {"uv": [4, 6, 2, 4], "texture": "#0"},
+				"down": {"uv": [6, 4, 4, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 90, 0],
+			"translation": [0, -2, 0.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, -90, 0],
+			"translation": [0, -2, 0.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [135, 90, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [135, -90, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 1, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"translation": [0, 4.25, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 1, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "magnet",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
